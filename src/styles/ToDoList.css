@@ -1,0 +1,36 @@
+.container {
+    position: relative;
+    top: 28rem;
+    left: 28rem;
+}
+
+.container .title {
+    margin-top: 5rem;
+}
+
+.item {
+    margin-top: 1.5rem;
+
+}
+
+.item .item-input, span {
+    color: var(--black);
+    font-family: 'Quattrocento', serif;
+    font-size: 2rem;
+    height: 2.2rem;
+    margin-left: 1rem;
+}
+
+.item .item-input:focus {
+    outline-width: 0;  
+}
+
+.item .item-input::placeholder {
+    color: var(--gray);
+    font-family: 'Quattrocento', serif;
+    font-size: 2rem;
+}
+
+a {
+    background: var(--white);
+}

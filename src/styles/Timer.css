@@ -1,0 +1,5 @@
+.timer-container {
+    background: var(--red);
+    width: 50vw;
+    height: 100vh;
+}
